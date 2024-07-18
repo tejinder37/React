@@ -14,6 +14,7 @@ import Forms from "../../components/Forms";
 import FormsAdvanced from "../../components/FormsAdvaced";
 import NestedObject from "../../components/NestedObject";
 import Immer from "../../components/Immer";
+import Dropzone from "../../components/Dropzone";
 import ArrayInState from "../../components/ArrayInState";
 import ReplacingItemFromAnArray from "../../components/ReplacingItemFromAnArray";
 import AddingElement from "../../components/AddingElement";
@@ -22,6 +23,7 @@ import Accordian from "../../components/Accordian";
 import TaskApp from "../../projects/todolistapp/TaskApp";
 import TaskAppReducer from "../../projects/todolistapp copy/TaskAppReducer";
 import TaskAppAdvanced from "../../projects/todoAppAdvanced/TodoAppAdvanced";
+import DraggableList from "../../components/DraggableList";
 
 const propsObj = {
   name: "harjeet",
@@ -71,7 +73,10 @@ const Learning = () => {
         {/* <Accordian/> */}
         {/* <TaskApp/> // using useState */}
         {/* <TaskAppReducer /> */}
-        <TaskAppAdvanced/>
+        {/* <TaskAppAdvanced/> */}
+
+        {/* <Dropzone /> */}
+        <DraggableList/>
       </div>
     </div>
   );
